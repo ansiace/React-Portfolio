@@ -5,14 +5,14 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from '../Card/Card';
 import { themeContext } from '../../Context';
-import { useContext } from "react";
+import { useContext } from "react";    
 
 const Services = () => {
 
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return(
-        <div className="services">
+        <div className="services" id='Services' >
 
             {/* left side */}
             <div className="awesome">
@@ -42,7 +42,7 @@ const Services = () => {
               <Card
                 emoji={Glasses}
                 heading={"Developer"}
-                detail={"Html, Css, JavaScript, React"}
+                detail={"Html, Css, JavaScript, React,Figma, Sketch, Photoshop "}
               />
             </div>
             {/* 3rd card */}

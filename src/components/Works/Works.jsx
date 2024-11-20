@@ -1,5 +1,5 @@
-import React from 'react'
-import './Works.css'
+import React from 'react';
+import './Works.css';
 import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
