@@ -43,15 +43,17 @@ textarea{
 @media screen and ( max-width: 480px ){
     
     .contact-form{
-        display: flex;
-        flex-direction: column;
-        transform: scale(0.5);
-        position: relative;
-        margin-top: -2rem;
-        margin-bottom: 3rem; 
-            
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+    margin-top: 100px; /* Adjust based on your navbar's height */
+    width: 90%; 
+    max-width: 350px;  
+    padding: 15px;        
     }
-
-    
-
+    .user{ 
+        max-width: 350px;   
+    }
 }

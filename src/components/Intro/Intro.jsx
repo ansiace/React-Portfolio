@@ -12,7 +12,6 @@ import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import { themeContext } from '../../Context';
 import { useContext } from "react";
-// import { motion } from "framer-motion";
 const Intro = () => {
 
   const theme = useContext(themeContext);

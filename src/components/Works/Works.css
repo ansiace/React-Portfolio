@@ -87,11 +87,15 @@
         align-items: flex-start;
         justify-content: start;
         transform: scale(0.7);
+        margin-top: 10px;
     }
     .w-mainCircle{
         position: static;
     }
     .w-backCircle{
         left: 8rem!important;
+    }
+    .blueCircle{
+        margin-top: 450px;
     }
 }

@@ -3,8 +3,8 @@ import './Works.css';
 import Upwork from "../../img/Upwork.png";
 import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Shopify from "../../img/shopify.png";
+import Facebook from "../../img/facebook.png";
 import { themeContext } from '../../Context';
 import { useContext } from "react";
 
@@ -18,15 +18,15 @@ const Works = () => {
         <div className="Works">
             <div className="awesome">
             <span style={{color: darkMode? 'white': ''}}>Works for All these</span>
-            <span>Brands & Clients </span>
+            <span> Tools & Technologies </span>
             <spane>
-                Lorem ispum is simpley dummy text of printing of printing Lorem
+            Exploring advanced tools and technologies to build innovative solutions.
                 <br />
-                ispum is simpley dummy text of printing 
+                Learning and implementing frameworks to simplify development. 
                 <br />
-                ispum is simpley dummy text of printing text of printing
+                Exploring modern frameworks to enhance efficiency.
                 <br />
-                Lorem ispum is simpley dummy text
+                Staying ahead with the latest tech trends and tools
             </spane>
             <button className="button s-button"> Hire me </button>
             <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
